@@ -218,14 +218,20 @@ h3 {
   font-size: smaller;
   padding: 1rem;
 }
-@media screen and (max-width: 768px) {
-  h2,
-  h3 {
-    text-align: center;
-  }
+.card {
+  display: flex;
+  align-items: center;
 }
-@media screen and (max-width: 1200px) {
-  .container {
-    flex-direction: column;
-  }
+.box-1 {
+  height: 140px;
+  width: 104px;
+  font-size: 200px;
+  font-weight: 400px;
+  opacity: 0.1;
+  padding-left: 1rem;
+}
+.box-2 {
+  align-items: baseline;
+  width: 467px;
+  padding-top: 5rem;
 }
